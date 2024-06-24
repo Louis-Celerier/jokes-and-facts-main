@@ -8,7 +8,7 @@ import { firstValueFrom } from 'rxjs';
 export class AppService {
 
   private readonly jokeTypes = [
-    'general', 'programming'
+    'general', 'programming', 'knock-knock'
   ];
   constructor(private readonly httpService: HttpService) {}
 
