@@ -1,4 +1,4 @@
-import { SelectBar, JokeList, CatFact } from "@/feature";
+import { SelectBar, CatFact } from "@/feature";
 
 export default function Home() {
   return (
