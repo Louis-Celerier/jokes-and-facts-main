@@ -36,7 +36,7 @@ export function SelectBar() {
     );
 }
 
-export function JokeList({ jType }: { jType: string }) { 
+function JokeList({ jType }: { jType: string }) { 
   const { loading, error, value } = useAsync(async () => {
     const response = await fetch(`http://localhost:3001/jokes/${jType}`);
     return await response.json();
